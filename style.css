@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?xjhlco');
+    src:  url('fonts/icomoon.eot?xjhlco#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?xjhlco') format('truetype'),
+      url('fonts/icomoon.woff?xjhlco') format('woff'),
+      url('fonts/icomoon.svg?xjhlco#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .hero1, .hero2 {
+      display: flex;
+      justify-content: center;
+  }
+  .card1, .card2, .card3, .card4, .card5, .card6 {
+    display: grid;
+    place-items: center;
+    width: 450px;
+    padding: 20px;
+  }
+ 
+  .btn_container {
+      background-color: #2E2367;
+      width: 280px;
+      height: 60px;
+      border-radius: 75px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+
+  .icon-sunset:before {
+    content: "\e900";
+    color: #e8854e;
+    font-size: 30px;
+
+  }
+  .icon-night:before {
+    content: "\e901";
+    color: #81acff;
+    text-align: center;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .icon-day:before {
+    content: "\e902";
+    color: #ffd990;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  * {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Code', monospace;
+    color: white;
+}
+
+header {
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #FF5886;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    background-color: #1F1943;
+}
+
+button {
+    height: 45px;
+    width: 85px;
+    border-radius: 30px;
+    display: inline;
+    border: none;
+    background-color: #2E2367;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5E4EA9;
+}
+
+button:focus, button:active {
+    background-color: #5E4EA9;
+    outline: none;
+}
+
+img {
+    width: 400px;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+i {
+    color: black;
+}
